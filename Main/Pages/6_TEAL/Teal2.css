@@ -1,0 +1,74 @@
+/* Teal2.css */
+html, body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: left;
+    color: #333; /* Body text color */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh; /* Center content vertically in the viewport */
+  }
+
+.teal2-container {
+    background-color: #8fb4cd;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(96, 94, 94, 0.3);
+    margin: 20px;
+    
+  }
+  
+  .teal2-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .teal2-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .teal2-paragraph a {
+    color: #2303f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .teal2-paragraph a:hover {
+    text-decoration: underline;
+  }
+  .ratio {
+    width: calc(50% - 20px); /* Adjust the width as needed to fit three videos in a row with padding */
+    max-width: calc(33.33% - 20px); /* Limit the maximum width of each video container with padding */
+    margin: 0 20px 20px 0; /* Add equal spacing around each video container */
+    flex-shrink: 0; /* Prevent videos from shrinking */
+    position: relative;
+    padding: 10px; /* Add padding to every side */
+    align-items: center;
+    padding-left: 20px
+  }
+  .hello{
+    display: flex;
+    /*justify-content: ;*/
+    align-items: flex-start;
+    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap; /* Allow divs to wrap to the next row when there are fewer than 3 */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    margin-top: 20px; /* Add spacing between videos and the heading */
+    padding-left: 20px;
+  }
+  .mainList{
+    line-height: 1.5;
+  }

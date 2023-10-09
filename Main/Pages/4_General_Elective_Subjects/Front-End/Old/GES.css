@@ -7,6 +7,12 @@ html{
 .Section1{
     
 }
+.heading1{
+    color: royalblue
+}
+.heading2{
+    color:royalblue
+}
 
 .Section2 Table{
     font-size: 14px;
@@ -16,44 +22,49 @@ html{
 }
 
 .Section2 Table th{
-    background-color: gray;
+    background-color: rgba(103, 157, 239, 0.875);
     /*width: 200px;*/
     width:auto;
     text-align: center;
     padding: 10px; /* Add padding to the header cells for better readability */
-    border: 1px solid black; /* Add borders to header cells */
+    border: 1px solid royalblue; /* Add borders to header cells */
     font-weight: bold; /* Make the text in headers bold */
 }
 
 /* Style the first column header differently */
 .Section2 table th:first-child {
-    background-color: lightgray; /* Change the background color of the first column header */
+    background-color: royalblue; /* Change the background color of the first column header */
 }
 
 /* Style table data cells */
 .Section2 table td {
     text-align: center;
     padding: 8px; /* Add padding to the data cells for better readability */
-    border: 1px solid black; /* Add borders to data cells */
+    border: 1px solid royalblue; /* Add borders to data cells */
 }
 
 /* Style alternating rows with different background colors for better readability */
 .Section2 table tbody tr:nth-child(odd) {
-    background-color: #f2f2f2; /* Light gray background for odd rows */
+    background-color: #eff1f8; /* Light gray background for odd rows */
 }
 /* Hover effect for rows */
 .Section2 table tbody tr:hover {
-    background-color: #ddd; /* Gray background on hover */
+    background-color: rgba(113, 163, 240, 0.875); /* Gray background on hover */
+    color: rgb(30, 27, 192);
 }
 
 /* Add a border to the bottom of the last row to separate it from the table */
 .Section2 table tbody tr:last-child td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid royalblue;
 }
 
 .Section2 Table th.heading1{
     text-align: center;
     
+}
+.alert{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
 }
 
 .crossed-out{

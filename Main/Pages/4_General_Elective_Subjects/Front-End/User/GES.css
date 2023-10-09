@@ -1,0 +1,242 @@
+html{
+    background-color: #fff;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.Section1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.heading1{
+    color: royalblue
+}
+.heading2{
+    color:royalblue
+}
+
+.Section2 Table{
+    font-size: 14px;
+    border: 1px solid black;
+    width: 100%; /* Make the table expand to the full width of its container */
+    border-collapse: collapse; /* Collapse table borders into a single border */
+}
+
+.Section2 Table th{
+    background-color: rgba(103, 157, 239, 0.875);
+    /*width: 200px;*/
+    width:auto;
+    text-align: center;
+    padding: 10px; /* Add padding to the header cells for better readability */
+    border: 1px solid royalblue; /* Add borders to header cells */
+    font-weight: bold; /* Make the text in headers bold */
+}
+
+/* Style the first column header differently */
+.Section2 table th:first-child {
+    background-color: royalblue; /* Change the background color of the first column header */
+}
+
+/* Style table data cells */
+.Section2 table td {
+    text-align: center;
+    padding: 8px; /* Add padding to the data cells for better readability */
+    border: 1px solid royalblue; /* Add borders to data cells */
+}
+
+/* Style alternating rows with different background colors for better readability */
+.Section2 table tbody tr:nth-child(odd) {
+    background-color: #eff1f8; /* Light gray background for odd rows */
+}
+/* Hover effect for rows */
+.Section2 table tbody tr:hover {
+    background-color: rgba(109, 150, 200, 0.875); /* Gray background on hover */
+    color: rgb(24, 24, 219);
+}
+
+/* Add a border to the bottom of the last row to separate it from the table */
+.Section2 table tbody tr:last-child td {
+    border-bottom: 1px solid royalblue;
+}
+
+.Section2 Table th.heading1{
+    text-align: center;
+    
+}
+.alert{
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+}
+
+.crossed-out{
+    text-decoration: line-through;
+}
+
+/* Edit and Delete Buttons */
+.Section2 table td button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .Section2 table td button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Edit Form */
+  .edit-form {
+    margin-top: 20px;
+    border: 1px solid royalblue;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align the form contents */
+    margin: 20px auto; /* Center the form horizontally and add margin */
+    max-width: 400px; /* Set a maximum width for the form */
+  }
+  
+  .edit-form h3 {
+    color:rgb(11, 69, 240);
+  }
+  
+  .edit-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the form items horizontally */
+  }
+  
+  .edit-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .edit-form button[type="submit"] {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .edit-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .edit-form button[type="button"] {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .edit-form button[type="button"]:hover {
+    background-color: #999; /* Darker gray on hover */
+  }
+  /*Copy one*/
+  .add-course-popup {
+    margin-top: 20px;
+    border: 1px solid royalblue;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align the form contents */
+    margin: 20px auto; /* Center the form horizontally and add margin */
+    max-width: 400px; /* Set a maximum width for the form */
+  }
+  
+  .add-course-popup h3 {
+    color: rgb(11, 69, 240);
+  }
+  
+  .add-course-popup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the form items horizontally */
+  }
+  
+  .add-course-popup input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .add-course-popup button[type="submit"] {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .add-course-popup button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .add-course-popup button[type="button"] {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .add-course-popup button[type="button"]:hover {
+    background-color: #999; /* Darker gray on hover */
+  }
+
+  
+  /*Newly added*/
+  .form-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row if necessary */
+    justify-content: space-between; /* Add space between label-input pairs */
+  }
+  
+  
+ .form-col {
+    
+    /*width: 100%;*/ /* Ensure each input field takes up the full width of the form */
+    margin-bottom: 10px;
+  }
+  
+  /* Style labels for the headings */
+  .form-col label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: royalblue;
+  }
+  
+  /* Style input fields */
+  .form-col input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid royalblue;
+  }
+  
+  /* Style buttons */
+  .button-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Add space between the buttons */
+  }
+  
+  .button-row button {
+    flex: 1; /* Make buttons take equal space */
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px; /* Add some spacing between buttons */
+  }
+  
+  .button-row button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

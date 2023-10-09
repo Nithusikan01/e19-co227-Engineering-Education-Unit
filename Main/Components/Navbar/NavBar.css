@@ -1,0 +1,230 @@
+/* NavBar.css */
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  position: relative;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu i {
+  margin-right: 5px;
+}
+
+.sub-menu {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color:blue;
+  display: none;
+  width: auto; /* Set the width to auto to adjust to content */
+}
+/* Apply styles when hovering over a menu item */
+.menu li:hover {
+  /*background-color: #336699;*/ /* Change the background color */
+  color: red;
+}
+
+.menu li:hover a {
+  color: #63e7c4; /* Change the text color */
+}
+
+.menu li:hover .sub-menu {
+  display: block; /* Show the submenu when hovering */
+}
+
+
+.menu li:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li {
+  padding: 10px;
+}
+
+.sub-menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+/*.sub-menu li:hover {
+  background-color: white;
+}*/
+.sub-menu li:hover a{
+  color: white;
+}
+
+.arrow {
+  margin-left: 5px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu li:hover .sub-menu {
+    display: none;
+  }
+
+  .menu .arrow {
+    display: inline;
+  }
+
+  .search-bar.active {
+    display: block;
+  }
+}
+/* ... (existing CSS) */
+
+/* Hide the menu items when the screen size is small */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  /* Display the button-like toggle */
+  .toggle-button {
+    display: block;
+  }
+
+  /* Show the menu items when the menu is active (button is clicked) */
+  .menu.mobile {
+    display: block;
+  }
+}
+
+/* NavBar.css */
+
+/* ... (existing CSS) */
+
+/* Hide the menu items when the screen size is small */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  /* Display the button-like toggle */
+  .toggle-button {
+    display: block;
+  }
+
+  /* Show the menu items when the menu is active (button is clicked) */
+  .menu.mobile {
+    display: flex;
+    flex-direction: column; /* Display menu items in a column */
+    position: absolute;
+    top: 60px; /* Adjust this value as needed to align with your navbar height */
+    left: 0;
+    background-color: royalblue;
+    width: 100%; /* Occupy full width */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for a dropdown effect */
+  }
+
+  .menu.mobile li {
+    margin: 10px 0;
+  }
+}
+/* NavBar.css */
+
+/* ... (existing CSS) */
+
+/* Hide the menu items when the screen size is small */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  /* Display the button-like toggle */
+  .toggle-button {
+    display: block;
+  }
+
+  /* Show the menu items when the menu is active (button is clicked) */
+  .menu.mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust this value as needed to align with your navbar height */
+    left: 0;
+    background-color: royalblue;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .menu.mobile li {
+    margin: 10px 0;
+  }
+}
+
+/* Hide the toggle button in the full view */
+@media screen and (min-width: 769px) {
+  .toggle-button {
+    display: none;
+  }
+}
+/* NavBar.css */
+
+/* ... (existing CSS) */
+
+/* Add styles to the search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* Background color for the search bar */
+  padding: 5px 10px; /* Padding around the search input and button */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.search-bar input[type="text"] {
+  flex-grow: 1; /* Allow the input to grow and take up available space */
+  border: none;
+  padding: 5px;
+  margin-right: 10px; /* Spacing between input and button */
+}
+
+.search-bar button {
+  background-color: /*#007bff; /* Button background color */blue;
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* ... (existing CSS) */

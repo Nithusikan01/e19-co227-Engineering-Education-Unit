@@ -1,0 +1,60 @@
+/* Reset some default browser styles for better consistency */
+html, body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: left;
+    color: #333; /* Body text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Main {
+    background-color: #3498db;
+    color: #fff;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Move the heading outside of the .Main box */
+  .Heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: inherit; /* Same color as body text */
+  }
+  
+  .p1 {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .Main {
+      width: 90%;
+      padding: 15px;
+    }
+    
+    .Heading {
+      font-size: 20px;
+    }
+  }
+  

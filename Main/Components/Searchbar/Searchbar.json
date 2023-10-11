@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Home",
+        "path": "/"
+    },
+    {
+        "title": "Present Staff",
+        "path": "/PresentStaffNew"
+    },
+    {
+        "title": "Past Staff",
+        "path": "/PastStaffNew"
+    }, 
+    {
+        "title": "General Elective Subjects",
+        "path": "/GES"
+    },
+    {
+        "title": "Booking System",
+        "path": "https://www.skedda.com/"
+
+    },
+    {
+        "title": "Support and Development Center",
+        "path": "/"
+    },
+    {
+        "title": "TEAL 2.0 Seminar Series",
+        "path": "/"
+    },
+    {
+        "title": "Login",
+        "path": "/LogIn"
+    },
+    {
+        "title": "User Manual",
+        "path": "/PastStaffCRUD"
+    },
+    {
+        "title": "Seminar Room 1",
+        "path": "/PresentStaffCRUD"
+    },
+    {
+        "title": "Seminar Room 2",
+        "path": "/"
+    },
+    {
+        "title": "Seminar Room 3",
+        "path": "/"
+    },
+    {
+        "title": "A/V Studio",
+        "path": "/"
+    },
+    {
+        "title": "EOE Perera Theater",
+        "path": "/"
+    },
+    {
+        "title": "Conference Room",
+        "path": "/"
+    },
+    {
+        "title": "Lecture Rooms",
+        "path": "/"
+    },
+    {
+        "title": "Public Addressing System",
+        "path": "/"
+    },
+    {
+        "title": "Videos of Events",
+        "path": "/"
+    
+    },
+    {
+        "title": "Videos of Subjects",
+        "path": "/"
+    },
+    {
+        "title": "Videos of Subjects",
+        "path": "/"
+    },
+    {
+        "title": "Educational Videos",
+        "path": "/"
+    },
+    {
+        "title": "Videos about University",
+        "path": "/"
+    },
+    {
+        "title": "Public Educational Links",
+        "path": "/"
+    }, 
+    {
+        "title": "Recent Developments",
+        "path": "/Development"
+    },
+    {
+        "title": "Contact Us",
+        "path": "/ContactUs"
+    }
+]
